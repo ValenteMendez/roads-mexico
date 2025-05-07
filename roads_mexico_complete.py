@@ -140,4 +140,4 @@ for code, name in states:
     fig.savefig(f"output/distmap_{code}_{safe}.png", dpi=300)
     plt.close(fig)
 
-print("✅ All 32 states processed with correct Jalisco & Tabasco handling.")
+print("✅ All 32 states processed with correct Jalisco, Tabasco (and Colima) handling.")
