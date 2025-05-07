@@ -33,6 +33,6 @@ The script creates an `output` directory containing three maps per state (96 map
 
 ## Special Handling
 
-- Jalisco & Tabasco: Uses larger buffer (0.1°) to capture edge roads
+- Jalisco & Tabasco: Uses larger buffer (0.1°) to capture edge roads (this challenge occurred because of the shape of the states)
 - Colima: Drops tiny offshore islets
 - All states: Removes point geometries after clipping 
